@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_diagsums - Entry point
@@ -8,7 +7,7 @@
  * Return: Always 0 (success)
  */
 
-void print_diagsums(int *a, int size)
+void print_diagsums(int *a, int size);
 {
 	int sum1, sum2, y;
 

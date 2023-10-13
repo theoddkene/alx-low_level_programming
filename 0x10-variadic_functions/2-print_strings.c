@@ -12,7 +12,7 @@
  * if one of the strings is NULL, (nil) is printed instead
  */
 
-void print_strings(const char *separator, const unsigned in n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list strings;
 	char *str;
